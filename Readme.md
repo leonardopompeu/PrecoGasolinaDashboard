@@ -1,4 +1,7 @@
-Colunas:
+## Preview
+![alt dashboard preview](preview.png "Preview 1")
+![alt dashboard preview](preview2.png "Preview 2")
+## Colunas:
 - Data Inicial (0)
 - Data Final (1)
 - Região (2)
@@ -18,16 +21,17 @@ Colunas:
 - Preço máximo distribuição (16)
 - Coef de variação distribuição (17)
 
-data.columns = ["Datai", "Dataf", "Regiao", "Estado", "Produto", "Npostospesquisados", "Unmedida", "Medr", "Desvr", "Minr", "Maxr", "Margm", "Coefr", "Medd", "Desvd", "Mind", "Maxd", "Coefd"]
-
-Projeto:
+## Filtros barra lateral
 - Seleção por Revenda/Distribuição (Side)
 -      ==     Data (Side)
 -      ==     Região (Side)
 -      ==     Estado (Side)
------------------------------------------
-- Seleção por Produto (Main)
--      ==     Preço (Main)
--      ==     Margem (Main)
--      ==     Coef (Main)
--      ==     Desvio padrão (Main)
+
+## Informações plotadas (R : Revenda | D : Distribuição)
+- Preço Médio (R, D)
+- Desvio Padrão (R, D)
+- Preço Mínimo (R, D)
+- Preço Máximo (R, D)
+- Margem Média (R)
+- Coeficiente de variação (R, D)
+
